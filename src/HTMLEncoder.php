@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ScratchPHP\Rendering;
+namespace Bruny\Rendering;
 
 final class HTMLEncoder
 {
