@@ -25,7 +25,7 @@
     },
     "scripts": {
         "test": "composer exec -q phpunit",
-        "analyze": "composer exec -q \"phan --no-progress-bar -S\"",
+        "analyze": "composer exec \"phan --no-progress-bar -S\"",
         "analyze-init": "composer exec -q \"phan --init\"",
         "lint": "composer exec -q \"phpcs src --standard=PSR12\"",
         "lint-fix": "composer exec -q \"phpcbf src --standard=PSR12 -q\""

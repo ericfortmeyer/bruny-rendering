@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Bruny\Rendering;
 
 use Closure;
-use RenderingInterface;
 
 /**
  * Sets up template rendering.
@@ -16,7 +15,7 @@ use RenderingInterface;
  */
 final class GzipRenderer implements RenderingInterface
 {
-    public function __construct(private Closure|false $rendererBoundToContext)
+    public function __construct(private Closure $rendererBoundToContext)
     {
         ob_start("ob_gzhandler");
     }
@@ -26,22 +25,14 @@ final class GzipRenderer implements RenderingInterface
      *
      * {@inheritDoc}
      */
-    public function render(string $template, ?object $context = null): void
+    public function render(string $template): void
     {
-        is_null($context)
-            ? $this->streamTemplateWithoutContext($template)
-            : $this->streamTemplateWithContext($template, HTMLEncoder::safelyPrepareData($context));
+        $this->streamTemplate($template);
     }
 
-    private function streamTemplateWithContext(string $templateName): void
+    private function streamTemplate(string $templateName): void
     {
-        $rendererBoundToContext = $this->rendererBoundToContext;
-        $rendererBoundToContext($templateName);
-    }
-
-    private function streamTemplateWithoutContext(string $templateName): void
-    {
-        $renderer = $this->renderer;
+        $renderer = $this->rendererBoundToContext;
         $renderer($templateName);
     }
 }

@@ -17,7 +17,7 @@ final class TemplateRegistry
 
     public function __construct(private $pathToTemplates, array $templateConfig)
     {
-        array_walk($templateConfig, [$this, "register"]);
+        array_walk($templateConfig, [$this, "add"]);
     }
 
     public function add(string $pathToTemplate, string $templateName)
