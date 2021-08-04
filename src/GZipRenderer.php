@@ -9,10 +9,10 @@ use RenderingInterface;
 
 /**
  * Sets up template rendering.
- * 
+ *
  * Output is gzipped.
  * @link https://www.php.net/manual/en/function.ob-gzhandler
- * 
+ *
  */
 final class GzipRenderer implements RenderingInterface
 {
@@ -23,7 +23,7 @@ final class GzipRenderer implements RenderingInterface
 
     /**
      * Sends the template content to the output buffer.
-     * 
+     *
      * {@inheritDoc}
      */
     public function render(string $template, ?object $context = null): void

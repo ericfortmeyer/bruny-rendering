@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Bruny\Rendering;
+
 /**
  * Exposes the render method for implementations
  */

@@ -15,7 +15,7 @@ final class HTMLEncoder
 
     /**
      * Sanitizes data for use in HTML.
-     * 
+     *
      * @param object $data
      * @return mixed
      */

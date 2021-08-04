@@ -17,7 +17,7 @@ final class TemplateBinder
 
     /**
      * Provides a Closure that will be bound to a template.
-     * 
+     *
      * After binding, the template will have access to the
      * bound object's members.
      * @see https://www.php.net/manual/en/closure.bindto#Hcom116527
