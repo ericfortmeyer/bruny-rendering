@@ -20,13 +20,14 @@
         }
     ],
     "require": {
-        "php": ">=8.0.1"
+        "php": ">=8.0.1",
+        "ext-ast": "*"
     },
     "scripts": {
-        "test": "composer exec phpunit",
-        "analyze": "composer exec phan",
-        "analyze-init": "composer exec \"phan --init\"",
-        "lint": "composer exec \"phpcs src --standard=PSR12\"",
-        "lint-fix": "composer exec \"phpcbf src --standard=PSR12\""
+        "test": "composer exec -q phpunit",
+        "analyze": "composer exec -q \"phan --no-progress-bar -S\"",
+        "analyze-init": "composer exec -q \"phan --init\"",
+        "lint": "composer exec -q \"phpcs src --standard=PSR12\"",
+        "lint-fix": "composer exec -q \"phpcbf src --standard=PSR12 -q\""
     }
 }

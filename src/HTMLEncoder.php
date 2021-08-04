@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Bruny\Rendering;
 
+/**
+ * Prepares value to be safely used in HTML.
+ */
 final class HTMLEncoder
 {
     private function __construct()
@@ -11,6 +14,8 @@ final class HTMLEncoder
     }
 
     /**
+     * Sanitizes data for use in HTML.
+     * 
      * @param object $data
      * @return mixed
      */
