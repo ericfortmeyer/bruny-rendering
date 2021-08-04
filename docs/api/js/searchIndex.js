@@ -1,36 +1,6 @@
 Search.appendIndex(
     [
                 {
-            "fqsen": "\\Bruny\\Rendering\\GzipRenderer",
-            "name": "GzipRenderer",
-            "summary": "Sets\u0020up\u0020template\u0020rendering.",
-            "url": "classes/Bruny-Rendering-GzipRenderer.html"
-        },                {
-            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Bruny-Rendering-GzipRenderer.html#method___construct"
-        },                {
-            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003Arender\u0028\u0029",
-            "name": "render",
-            "summary": "Sends\u0020the\u0020template\u0020content\u0020to\u0020the\u0020output\u0020buffer.",
-            "url": "classes/Bruny-Rendering-GzipRenderer.html#method_render"
-        },                {
-            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003AstreamTemplateWithContext\u0028\u0029",
-            "name": "streamTemplateWithContext",
-            "summary": "",
-            "url": "classes/Bruny-Rendering-GzipRenderer.html#method_streamTemplateWithContext"
-        },                {
-            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003AstreamTemplateWithoutContext\u0028\u0029",
-            "name": "streamTemplateWithoutContext",
-            "summary": "",
-            "url": "classes/Bruny-Rendering-GzipRenderer.html#method_streamTemplateWithoutContext"
-        },                {
-            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003A\u0024rendererBoundToContext",
-            "name": "rendererBoundToContext",
-            "summary": "",
-            "url": "classes/Bruny-Rendering-GzipRenderer.html#property_rendererBoundToContext"
-        },                {
             "fqsen": "\\Bruny\\Rendering\\HTMLEncoder",
             "name": "HTMLEncoder",
             "summary": "Prepares\u0020value\u0020to\u0020be\u0020safely\u0020used\u0020in\u0020HTML.",
@@ -61,15 +31,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Bruny-Rendering-HTMLEncoder.html#method_traverseObject"
         },                {
-            "fqsen": "\\RenderingInterface",
+            "fqsen": "\\Bruny\\Rendering\\RenderingInterface",
             "name": "RenderingInterface",
             "summary": "Exposes\u0020the\u0020render\u0020method\u0020for\u0020implementations",
-            "url": "classes/RenderingInterface.html"
+            "url": "classes/Bruny-Rendering-RenderingInterface.html"
         },                {
-            "fqsen": "\\RenderingInterface\u003A\u003Arender\u0028\u0029",
+            "fqsen": "\\Bruny\\Rendering\\RenderingInterface\u003A\u003Arender\u0028\u0029",
             "name": "render",
             "summary": "Display\u0020a\u0020given\u0020template.",
-            "url": "classes/RenderingInterface.html#method_render"
+            "url": "classes/Bruny-Rendering-RenderingInterface.html#method_render"
         },                {
             "fqsen": "\\Bruny\\Rendering\\TemplateBinder",
             "name": "TemplateBinder",
@@ -120,6 +90,31 @@ Search.appendIndex(
             "name": "pathToTemplates",
             "summary": "",
             "url": "classes/Bruny-Rendering-TemplateRegistry.html#property_pathToTemplates"
+        },                {
+            "fqsen": "\\Bruny\\Rendering\\GzipRenderer",
+            "name": "GzipRenderer",
+            "summary": "Sets\u0020up\u0020template\u0020rendering.",
+            "url": "classes/Bruny-Rendering-GzipRenderer.html"
+        },                {
+            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Bruny-Rendering-GzipRenderer.html#method___construct"
+        },                {
+            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "Sends\u0020the\u0020template\u0020content\u0020to\u0020the\u0020output\u0020buffer.",
+            "url": "classes/Bruny-Rendering-GzipRenderer.html#method_render"
+        },                {
+            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003AstreamTemplate\u0028\u0029",
+            "name": "streamTemplate",
+            "summary": "",
+            "url": "classes/Bruny-Rendering-GzipRenderer.html#method_streamTemplate"
+        },                {
+            "fqsen": "\\Bruny\\Rendering\\GzipRenderer\u003A\u003A\u0024rendererBoundToContext",
+            "name": "rendererBoundToContext",
+            "summary": "",
+            "url": "classes/Bruny-Rendering-GzipRenderer.html#property_rendererBoundToContext"
         },                {
             "fqsen": "\\",
             "name": "\\",
